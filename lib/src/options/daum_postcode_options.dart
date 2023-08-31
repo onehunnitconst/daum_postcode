@@ -61,8 +61,8 @@ class DaumPostcodeOptions {
         'alwaysShowEngAddr': alwaysShowEngAddr?.toString(),
         'submitMode': submitMode?.toString(),
         'useBannerLink': useBannerLink?.toString(),
-        'theme':
-            jsonEncode(themeType != null ? themeType!.value.toJson() : theme?.toJson()),
+        'theme': jsonEncode(
+            themeType != null ? themeType!.value.toJson() : theme?.toJson()),
       };
 
   factory DaumPostcodeOptions.fromJson(Map<String, dynamic> json) =>

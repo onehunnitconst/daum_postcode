@@ -1,4 +1,4 @@
-library daum_postcode;
+library daum_postcode_view;
 
 export 'src/daum_postcode_view.dart';
 export 'src/options/daum_postcode_options.dart';

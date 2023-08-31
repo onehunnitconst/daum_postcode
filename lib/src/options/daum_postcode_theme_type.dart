@@ -3,7 +3,8 @@ import 'package:flutter/widgets.dart';
 import 'daum_postcode_theme.dart';
 
 enum DaumPostcodeThemeType {
-  defaultTheme(value: DaumPostcodeTheme(
+  defaultTheme(
+      value: DaumPostcodeTheme(
     bgColor: Color(0xFFECECEC),
     searchBgColor: Color(0xFFFFFFFF),
     contentBgColor: Color(0xFFFFFFFF),
@@ -14,7 +15,8 @@ enum DaumPostcodeThemeType {
     emphTextColor: Color(0xFF008BD3),
     outlineColor: Color(0xFFE0E0E0),
   )),
-  darknessTheme(value: DaumPostcodeTheme(
+  darknessTheme(
+      value: DaumPostcodeTheme(
     bgColor: Color(0xFF162525),
     searchBgColor: Color(0xFF162525),
     contentBgColor: Color(0xFF162525),

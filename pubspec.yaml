@@ -1,6 +1,6 @@
 name: daum_postcode_view
-description: Daum Postcode View Service for Flutter
-version: 0.1.0
+description: Daum Postcode View Widget Package for Flutter.
+version: 0.1.2
 homepage: https://github.com/onehunnitconst/daum_postcode_view
 
 environment:
