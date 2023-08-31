@@ -1,5 +1,6 @@
-import 'package:daum_postcode/src/options/daum_postcode_theme.dart';
 import 'package:flutter/widgets.dart';
+
+import 'daum_postcode_theme.dart';
 
 enum DaumPostcodeThemeType {
   defaultTheme(value: DaumPostcodeTheme(

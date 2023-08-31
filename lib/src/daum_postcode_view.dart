@@ -1,9 +1,10 @@
 import 'dart:convert';
 
-import 'package:daum_postcode/src/model/daum_postcode_model.dart';
-import 'package:daum_postcode/src/options/daum_postcode_options.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+
+import 'model/daum_postcode_model.dart';
+import 'options/daum_postcode_options.dart';
 
 class DaumPostcodeView extends StatefulWidget {
   final void Function(DaumPostcodeModel) onComplete;
@@ -70,7 +71,7 @@ class _DaumPostcodeViewState extends State<DaumPostcodeView> {
 
   Uri _postcodePageUri() => Uri.https(
         "onehunnitconst.github.io",
-        "/daum_postcode/pages/postcode.html",
+        "/daum_postcode_view/pages/postcode.html",
         widget.options?.toJson(),
       );
 }

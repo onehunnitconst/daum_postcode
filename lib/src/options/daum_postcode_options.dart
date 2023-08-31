@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:daum_postcode/src/options/daum_postcode_theme.dart';
-import 'package:daum_postcode/src/options/daum_postcode_theme_type.dart';
+import 'daum_postcode_theme.dart';
+import 'daum_postcode_theme_type.dart';
 
 class DaumPostcodeOptions {
   final String width;

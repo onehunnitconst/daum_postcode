@@ -1,7 +1,7 @@
-name: daum_postcode
-description: Daum Postcode Service for Flutter
-version: 1.0.0
-homepage: https://github.com/onehunnitconst/daum_postcode
+name: daum_postcode_view
+description: Daum Postcode View Service for Flutter
+version: 0.1.0
+homepage: https://github.com/onehunnitconst/daum_postcode_view
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
