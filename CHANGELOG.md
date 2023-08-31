@@ -1,3 +1,5 @@
-## 0.0.1
+## 0.1.0
 
-* TODO: Describe initial release.
+* 최초 배포판
+* WebView 기반 다음 우편번호 서비스 플러터 위젯 제공
+* 선택한 주소 onComplete 콜백으로 받아오기 기능
